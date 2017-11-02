@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Radio Southern</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="radio_streaming_demo">Radio CUET</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_program">ProgramActivity</string>
+    <string name="title_activity_developer">DeveloperActivity</string>
+    <string name="message">Batch Department(short form like EEE,ME,CSE,CE,PME,ETE,URP,Arch) Name Your text message</string>
+    <string name="title_activity_faq">FAQActivity</string>
+    <string name="notificationtext">Notification Text</string>
+    <string name="notificationticker">Notification Ticker</string>
+    <string name="customnotificationtitle">Android Notification Tutorial</string>
+    <string name="customnotificationtext">Custom Notification Text</string>
+    <string name="customnotificationticker">Custom Notification Ticker</string>
+    <string name="lbltitle">"Title : "</string>
+    <string name="lbltext">"Text : "</string>
+    <string name="notification">Notification</string>
+    <string name="customnotification">Custom Notification</string>
+    <string name="title_activity_contact">Contact Activity</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/bb"
+	android:orientation="vertical"
+	android:weightSum="5"
+    tools:context=".MessageActivity" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2.5"
+        android:padding="5dp"
+        android:background="#80000000">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="Rules of Message :" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="@string/message" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 			android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="Example: 12 CSE John bla bla bla.." />
+        <TextView
+                android:id="@+id/marquee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+        android:lines="1"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff4500"
+        android:text="Tune in on every Friday 10.00 PM to enjoy our live shows and send your feedback..." />
+
+        </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_weight="2.5">
+
+  <EditText
+        android:id="@+id/smstxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edit_text"
+        android:lines="5"
+        android:padding="10dp"
+        android:hint="Message"
+        android:textColor="#000000"
+        android:gravity="top"
+        
+        />  
+ <Button
+        android:id="@+id/send"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:text="SEND" /> 
+   </LinearLayout>
+
+</LinearLayout>
